@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 1184px;
     height: 740px;
 }
@@ -10,10 +11,10 @@
 @media screen and (max-width: 1184px) {
     .cover {
         width: 100%;
-        height: 100%;
+        height: calc(740 / 1184 * 100vw);
     }
 }
 
 .cover:hover .cover__overlay {
-    opacity: 0.3;
+    opacity: 0.8;
 }
