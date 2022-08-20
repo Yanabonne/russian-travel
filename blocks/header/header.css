@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 48px;
+    padding-top: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 0 24px;
+    }
+}
+
+/*Здесь и далее разбивка для смартфонов будет идти от 425px и меньше, чтобы сайт хорошо смотрелся на всех моделях*/
+
+@media screen and (max-width: 425px) {
+    .header
+    {margin: 0 16px;
+    padding-top: 16px}
+} 

@@ -1,0 +1,24 @@
+.intro__list {
+    list-style: none;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 auto 0 0;
+    text-align: left;
+    max-width: 690px;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
