@@ -15,10 +15,3 @@
         margin-right: 0;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .intro__list {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-}

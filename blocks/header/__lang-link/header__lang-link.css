@@ -7,11 +7,11 @@
     text-decoration: none;
     margin: 0;
     justify-content: end;
+    transition: opacity 1s ease;
 }
 
 .header__lang-link:first-child {
     margin-right: 18px;
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 425px) {
@@ -19,3 +19,7 @@
     {font-size: 18px;
     line-height: 1.1;}
 } 
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}

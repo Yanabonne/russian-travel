@@ -1,20 +1,13 @@
 .cover {
-    margin: 92px auto 0;
-    position: relative;
+    margin: 92px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1184px;
-    height: 740px;
+    padding: 0;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 425px) {
     .cover {
-        width: 100%;
-        height: calc(740 / 1184 * 100vw);
+        margin-top: 66px;
     }
-}
-
-.cover:hover .cover__overlay {
-    opacity: 0.8;
 }
