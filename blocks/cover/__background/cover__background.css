@@ -8,8 +8,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    top: 0;
-    left: 0;
 }
 
 @media screen and (max-width: 1200px) {

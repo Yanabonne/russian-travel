@@ -7,8 +7,6 @@
     width: 1184px;
     min-height: 740px;
     transition: opacity 1s ease;
-    top: 0;
-    left: 0;
 }
 
 @media screen and (max-width: 1200px) {
