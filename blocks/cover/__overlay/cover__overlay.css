@@ -7,9 +7,11 @@
     width: 1184px;
     min-height: 740px;
     transition: opacity 1s ease;
+    top: 0;
+    left: 0;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1200px) {
     .cover__overlay {
         width: 100%;
         min-height: calc(740 / 1184 * 100vw);

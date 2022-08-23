@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1200px) {
     .cover__link {
         width: 100%;
         min-height: calc(740 / 1184 * 100vw);

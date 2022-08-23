@@ -8,9 +8,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    top: 0;
+    left: 0;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1200px) {
     .cover__background {
         width: 100%;
         height: calc(740 / 1184 * 100vw);
