@@ -3,16 +3,9 @@
     position: absolute;
     margin: 0;
     z-index: 0;
-    width: 1184px;
-    min-height: 740px;
-    background-size: contain;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-@media screen and (max-width: 1200px) {
-    .cover__background {
-        width: 100%;
-        height: calc(740 / 1184 * 100vw);
-    }
 }
